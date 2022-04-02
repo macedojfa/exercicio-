@@ -1,9 +1,10 @@
 # multiplexar tres fluxos de dados
 from collections import deque
 
-fila1=deque([10,22,37,14])
-fila2= deque([98,32,42])
+fila1=deque([10,22,37,14,25,48])
+fila2= deque([98,32,42,28])
 fila3= deque([17,66,22,98])
+
 
 filaUnida =[]
 laco= len(fila1)+len(fila2)+len(fila3)
@@ -27,6 +28,7 @@ while len(filaUnida)<laco:
 
 
 print(filaUnida)
+#print(laco)
 
 
 
